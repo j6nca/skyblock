@@ -27,7 +27,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1723614327",
+        "cacheTag": "1723652457",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -50,7 +50,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "skyblock",
-            "last_rendertime": 1723599120,
+            "last_rendertime": 1723610100,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
