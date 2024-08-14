@@ -1,0 +1,31 @@
+name: Build static site
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ghcr.io/j6nca/containers/mc-overviewer:sha256-ab1bd07b72f324c9475520e61b03fbfe9ce858a1ca7d722d9059422b33a59c5a
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run mc-overviewer
+        run: overviewer.py "Infinite SkyBlock" ./static
+
+  deploy:
+    needs: build
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
