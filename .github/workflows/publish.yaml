@@ -27,6 +27,7 @@ jobs:
         run: |
           cat ./config.py
           ls
+          pwd
           overviewer.py --config=./config.py
 
   deploy:
