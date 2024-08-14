@@ -24,7 +24,10 @@ jobs:
           && rm /tmp/overviewer.deb
 
       - name: Run mc-overviewer
-        run: overviewer.py "Infinite SkyBlock" ./static
+        run: |
+          cat ./config.py
+          ls
+          overviewer.py --config=./config.py
 
   deploy:
     needs: build
