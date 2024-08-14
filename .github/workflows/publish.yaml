@@ -30,17 +30,26 @@ jobs:
           pwd
           overviewer.py --config=./config.py
 
-  deploy:
-    needs: build
-    permissions:
-      pages: write      # to deploy to Pages
-      id-token: write   # to verify the deployment originates from an appropriate source
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+      - name: push static
+        run: |
+          echo $(date) > lastrun
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add lastrun
+          git add static
+          git commit -m "update static site"
+          git push
+  # deploy:
+  #   needs: build
+  #   permissions:
+  #     pages: write      # to deploy to Pages
+  #     id-token: write   # to verify the deployment originates from an appropriate source
+  #   environment:
+  #     name: github-pages
+  #     url: ${{ steps.deployment.outputs.page_url }}
+  #   runs-on: ubuntu-latest
 
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
+  #   steps:
+  #     - name: Deploy to GitHub Pages
+  #       id: deployment
+  #       uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
