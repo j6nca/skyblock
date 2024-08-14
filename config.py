@@ -1,4 +1,4 @@
-worlds["skyblock"] = "./Infinite Skyblock"
+worlds["skyblock"] = "./Infinite SkyBlock"
 
 renders["normalrender"] = {
     "world": "skyblock",
