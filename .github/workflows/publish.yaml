@@ -33,10 +33,16 @@ jobs:
         run: |
           ls
           pwd
+          git checkout main
+          git fetch origin
+          git checkout gh-pages
+          git pull
+          git merge origin/main
+          git push origin gh-pages
       
-      - name: Rebase on top of main branch
-        run: |
-          git rebase main
+      # - name: Rebase on top of main branch
+      #   run: |
+      #     git rebase main
 
       - name: Install mc-overviewer
         run: |
