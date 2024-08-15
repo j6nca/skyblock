@@ -30,8 +30,12 @@ jobs:
           git fetch origin
           git checkout gh-pages
           git pull
+<<<<<<< Updated upstream
           git merge origin/main
           git push origin gh-pages
+=======
+          git rebase origin/main
+>>>>>>> Stashed changes
       
       # - name: Rebase on top of main branch
       #   run: |
