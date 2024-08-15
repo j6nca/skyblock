@@ -17,22 +17,15 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: debug
-        run: |
-          ls
-          pwd
-
-      - name: Checkout repository
-        uses: actions/checkout@v4
         with:
-          ref: gh-pages
           fetch-depth: 0
 
-      - name: debug
+      - name: Rebase
         run: |
           ls
           pwd
+          git config user.name github-actions
+          git config user.email github-actions@github.com
           git checkout main
           git fetch origin
           git checkout gh-pages
@@ -65,8 +58,6 @@ jobs:
         run: |
           ls -la
           echo $(date) > lastrun
-          git config user.name github-actions
-          git config user.email github-actions@github.com
           git status
           git add lastrun
           git add static
