@@ -33,14 +33,19 @@ jobs:
           ls
           pwd
           overviewer.py --config=./config.py
+          git stash
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
 
       - name: push static
         run: |
           echo $(date) > lastrun
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git stash
-          git checkout gh-pages
+          git stash pop
           git add lastrun
           git add static
           git commit -m "update static site"
