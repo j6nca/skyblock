@@ -62,7 +62,7 @@ jobs:
           git add lastrun
           git add static
           git commit -m "update static site"
-          git push
+          git push --force-with-lease
   # deploy:
   #   needs: build
   #   permissions:
