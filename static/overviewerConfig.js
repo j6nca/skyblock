@@ -27,7 +27,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1723695066",
+        "cacheTag": "1723771083",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -43,14 +43,14 @@ var overviewerConfig = {
     "tilesets": [
         {
             "name": "skyblock",
-            "zoomLevels": 6,
+            "zoomLevels": 7,
             "defaultZoom": 1,
-            "maxZoom": 6,
+            "maxZoom": 7,
             "path": "normalrender",
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "skyblock",
-            "last_rendertime": 1723610100,
+            "last_rendertime": 1723749248,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -67,6 +67,58 @@ var overviewerConfig = {
                 -3,
                 0
             ],
+            "north_direction": 0
+        },
+        {
+            "name": "skyblock overworld",
+            "zoomLevels": 7,
+            "defaultZoom": 1,
+            "maxZoom": 7,
+            "path": "overworld",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "skyblock",
+            "last_rendertime": 1723749248,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                0,
+                -3,
+                0
+            ],
+            "lastrenderversion": 2,
+            "minZoom": 0,
+            "spawn": [
+                0,
+                -3,
+                0
+            ],
+            "north_direction": 0
+        },
+        {
+            "name": "skyblock nether",
+            "zoomLevels": 7,
+            "defaultZoom": 1,
+            "maxZoom": 7,
+            "path": "nether",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "skyblock",
+            "last_rendertime": 1723690649,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                0,
+                -3,
+                0
+            ],
+            "lastrenderversion": 2,
+            "minZoom": 0,
+            "spawn": false,
             "north_direction": 0
         }
     ]
