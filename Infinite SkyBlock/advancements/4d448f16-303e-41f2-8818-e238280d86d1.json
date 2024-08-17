@@ -1407,5 +1407,17 @@
     },
     "done": true
   },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_leggings": "2024-08-17 16:27:39 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-08-17 16:51:58 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
