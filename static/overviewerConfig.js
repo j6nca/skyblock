@@ -27,7 +27,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1723787565",
+        "cacheTag": "1723873809",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -50,7 +50,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "skyblock",
-            "last_rendertime": 1723787090,
+            "last_rendertime": 1723873286,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -78,7 +78,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "skyblock",
-            "last_rendertime": 1723787090,
+            "last_rendertime": 1723873286,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
