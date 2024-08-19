@@ -27,7 +27,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1723960395",
+        "cacheTag": "1724039345",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -42,35 +42,7 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "skyblock",
-            "zoomLevels": 7,
-            "defaultZoom": 1,
-            "maxZoom": 7,
-            "path": "normalrender",
-            "base": "",
-            "bgcolor": "#1a1a1a",
-            "world": "skyblock",
-            "last_rendertime": 1723959896,
-            "imgextension": "png",
-            "isOverlay": false,
-            "poititle": "Markers",
-            "showlocationmarker": true,
-            "center": [
-                0,
-                -3,
-                0
-            ],
-            "lastrenderversion": 2,
-            "minZoom": 0,
-            "spawn": [
-                0,
-                -3,
-                0
-            ],
-            "north_direction": 0
-        },
-        {
-            "name": "skyblock overworld",
+            "name": "overworld",
             "zoomLevels": 7,
             "defaultZoom": 1,
             "maxZoom": 7,
@@ -78,7 +50,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "skyblock",
-            "last_rendertime": 1723959896,
+            "last_rendertime": 1724038869,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -98,7 +70,7 @@ var overviewerConfig = {
             "north_direction": 0
         },
         {
-            "name": "skyblock nether",
+            "name": "  nether",
             "zoomLevels": 7,
             "defaultZoom": 1,
             "maxZoom": 7,
