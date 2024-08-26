@@ -27,7 +27,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1724534992",
+        "cacheTag": "1724648616",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -43,14 +43,14 @@ var overviewerConfig = {
     "tilesets": [
         {
             "name": "overworld",
-            "zoomLevels": 7,
+            "zoomLevels": 8,
             "defaultZoom": 1,
-            "maxZoom": 7,
+            "maxZoom": 8,
             "path": "overworld",
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "skyblock",
-            "last_rendertime": 1724534442,
+            "last_rendertime": 1724648037,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -78,7 +78,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "skyblock",
-            "last_rendertime": 1724530826,
+            "last_rendertime": 1724642325,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
