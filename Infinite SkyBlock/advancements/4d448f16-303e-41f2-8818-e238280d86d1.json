@@ -2255,9 +2255,9 @@
     },
     "done": true
   },
-  "minecraft:nether/distract_piglin": {
+  "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
-      "distract_piglin": "2024-08-25 23:08:55 -0400"
+      "has_glow_ink_sac": "2024-08-25 20:41:18 -0400"
     },
     "done": true
   },
@@ -2273,9 +2273,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/glow_item_frame": {
+  "minecraft:nether/distract_piglin": {
     "criteria": {
-      "has_glow_ink_sac": "2024-08-25 20:41:18 -0400"
+      "distract_piglin": "2024-08-25 23:08:55 -0400"
     },
     "done": true
   },
@@ -2288,6 +2288,12 @@
   "minecraft:recipes/redstone/redstone_lamp": {
     "criteria": {
       "has_glowstone": "2024-08-26 00:48:00 -0400"
+    },
+    "done": true
+  },
+  "skyblock:ocean/kelp": {
+    "criteria": {
+      "kelp": "2024-08-26 20:51:37 -0400"
     },
     "done": true
   },
