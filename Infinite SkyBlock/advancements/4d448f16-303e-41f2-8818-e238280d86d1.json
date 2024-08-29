@@ -2297,6 +2297,12 @@
     },
     "done": true
   },
+  "skyblock:farmer/nether_wart": {
+    "criteria": {
+      "nether_wart": "2024-08-27 21:57:00 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_stained_glass": {
     "criteria": {
       "has_glass": "2024-08-27 23:06:06 -0400"
@@ -2336,12 +2342,6 @@
   "minecraft:recipes/building_blocks/blue_stained_glass": {
     "criteria": {
       "has_glass": "2024-08-27 23:06:06 -0400"
-    },
-    "done": true
-  },
-  "skyblock:farmer/nether_wart": {
-    "criteria": {
-      "nether_wart": "2024-08-27 21:57:00 -0400"
     },
     "done": true
   },
